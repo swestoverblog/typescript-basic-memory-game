@@ -1,6 +1,10 @@
-# TypeScript Parcel Template
+# TypeScript Basic Memory Game.
 
-This is a basic TypeScript template that uses Parcel.
+A basic Memory Game that is implemented in TypeScript that can be extended to work with any JavaScript framework. If you are interested in learning more about the code that is implemented, you can read more about this code on my blog here: TODO
+
+Here are some examples of how the class can be extended to work with different JavaScript frameworks:
+  - Phaser: TODO
+  - Kontra: TODO
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 

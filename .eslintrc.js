@@ -30,5 +30,14 @@ module.exports = {
       'always',
       { exceptAfterSingleLine: true },
     ],
+    'no-param-reassign': 'off',
   },
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        '@typescript-eslint/no-unused-vars': [2, { args: 'none' }],
+      },
+    },
+  ],
 };
