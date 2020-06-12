@@ -1,0 +1,35 @@
+{
+	"name": "phaser3-typescript-template",
+	"version": "1.0.0",
+	"description": "A template project for TypeScript and Parcel",
+	"scripts": {
+		"start": "parcel src/index.html -p 8080",
+		"build": "parcel build src/index.html --out-dir dist",
+		"lint": "eslint ./src --ext .ts,.tsx"
+	},
+	"author": "scottwestover",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/scottwestover/phaser3-typescript-template.git"
+	},
+	"homepage": "https://github.com/scottwestover/phaser3-typescript-template",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "3.2.0",
+		"@typescript-eslint/parser": "3.2.0",
+		"eslint": "7.2.0",
+		"eslint-config-airbnb-base": "14.1.0",
+		"eslint-plugin-import": "2.21.1",
+		"parcel-plugin-clean-easy": "1.0.2",
+		"parcel-plugin-static-files-copy": "2.4.1",
+		"typescript": "3.9.5"
+	},
+	"dependencies": {},
+	"parcelCleanPaths": [
+		"dist"
+	],
+	"staticFiles": {
+		"staticPath": "public",
+		"watcherGlob": "**"
+	}
+}
