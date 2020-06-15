@@ -62,7 +62,7 @@ export default class MemoryGame {
     return this.numberOfMoves;
   }
 
-  protected shuffleCards(): void {
+  private shuffleCards(): void {
     this.cards = shuffle(this.cards);
   }
 
@@ -73,6 +73,12 @@ export default class MemoryGame {
   private flipCards(): void {
     this.cards.forEach((card: Card) => {
       card.flipCardFaceDown();
+    });
+  }
+
+  public showRemainingCards(): void {
+    this.cards.forEach((card: Card) => {
+      console.log(card.isVisible());
     });
   }
 }

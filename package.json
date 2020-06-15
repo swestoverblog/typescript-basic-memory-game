@@ -31,5 +31,8 @@
 	"staticFiles": {
 		"staticPath": "public",
 		"watcherGlob": "**"
-	}
+	},
+	"browserslist": [
+		"last 1 Chrome versions"
+	]
 }
