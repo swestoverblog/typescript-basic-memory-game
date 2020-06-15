@@ -36,7 +36,7 @@ export default class MemoryGame {
         // this is the first card selected
         if (this.selectedCard === null) {
           this.selectedCard = card;
-          // display card until a second card is choosen
+          // display card until a second card is chosen
           await card.flipCard();
         } else {
           // lock game until animations are complete
