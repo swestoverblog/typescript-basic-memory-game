@@ -7,9 +7,9 @@ export default class Card {
     this.visible = false;
   }
 
-  // public setType(type: string): void {
-  //   this.type = type;
-  // }
+  public setType(type: string): void {
+     this.type = type;
+  }
 
   public getType(): string {
     return this.type;
